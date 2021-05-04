@@ -1,0 +1,179 @@
+@media (max-width: 576px) {
+    #search {
+        .box {
+            transform: scale(1);
+        }
+    }
+
+    #travel {
+        .bg-image {
+            .travel-text {
+                span {
+                    font-size: 61px !important;
+                }
+
+                input {
+                    display: block;
+                    width: 100% !important;
+                    margin-bottom: 1rem;
+                }
+
+                button {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 14px;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    #contact {
+        padding-bottom: 4rem !important;
+
+        .allmap {
+            .map-visit {
+                position: relative !important;
+            }
+        }
+    }
+
+    #steinbeck {
+        .steinbeck-text {
+            top: 40% !important;
+
+            hr {
+                width: 100% !important;
+                height: 5px !important;
+            }
+
+            p {
+                font-size: 1rem !important;
+                margin-top: 3rem !important;
+            }
+        }
+    }
+
+    #first-minutes {
+        .first-text {
+            h4 {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    #way {
+        .way-text {
+            p {
+                font-size: 14px !important;
+            }
+        }
+    }
+    .cityslider{
+        div{
+            img {
+                outline: none !important;
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}
+@media (max-width: 990px) {
+    .header {
+        display: none;
+    }
+
+    .phone-header {
+        display: block;
+    }
+
+    .slider {
+        .slick-prev,
+        .slick-next {
+            display: none !important;
+        }
+        .image-slider {
+            .slider-text {
+                top: 35% !important;
+                width: 100%;
+            }
+        }
+    }
+
+    #travel {
+        .bg-image {
+            .travel-text {
+                span {
+                    display: block !important;
+                }
+            }
+        }
+    }
+
+    #steinbeck {
+        .steinbeck-text {
+            hr {
+                width: 100% !important;
+                height: 5px !important;
+            }
+
+            p {
+                font-size: 1rem !important;
+                margin-top: 3rem !important;
+            }
+        }
+    }
+
+    #footer {
+        .footer-top {
+            .box {
+                p {
+                    font-size: 10px !important;
+                }
+
+                input {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .footer-bottom {
+            .right {
+                text-align: center !important;
+
+                p {
+                    display: block;
+                }
+
+                a {
+                    font-size: 8px !important;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1260px) {
+    #search {
+        .all {
+            .col-6 {
+                width: 20%;
+            }
+        }
+    }
+
+    #footer {
+        .footer-top {
+            .box {
+                text-align: start !important;
+                margin-bottom: 20px;
+
+                input {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
